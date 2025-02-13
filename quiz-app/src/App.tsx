@@ -1,15 +1,18 @@
+import QuestionCard from "./components/QuestionCard"
+import ScoreTracker from "./components/ScoreTracker"
 
 
 function App() {
-
+  
   return (
     <>
-     <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+      <div className="min-h-screen w-full flex items-center justify-center bg-[#18181B]">
+            <ScoreTracker />
+         
+      </div>
       
     </>
-  )
+  ) 
 }
 
 export default App
