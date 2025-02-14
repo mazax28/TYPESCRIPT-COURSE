@@ -8,6 +8,7 @@ export interface Product {
   category: string;
   image: string;
   rating: Rating;
+  amount?: number;
 }
 
 export interface Rating {
